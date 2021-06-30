@@ -1,0 +1,26 @@
+.home{
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background: 
+        linear-gradient(
+            to right, 
+            rgba($dark-primary-color, 0.8),
+            rgba($dark-primary-color, 0.3)
+        ),
+        url('../img/hero-bg.jpg') center top;
+    background-size: cover;
+    &__name{
+        font-size: 5rem;
+        padding-bottom:1rem;
+        margin-top: 1rem;
+        border-bottom: 2px solid set-text-color($dark-primary-color);
+
+        &--last{
+            color: $accent-colors;
+            font-weight: 700;
+        }
+    }
+}

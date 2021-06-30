@@ -1,0 +1,22 @@
+/* Navigation bar */
+nav{
+  background: $dark-primary-color;
+  font-size: 18px;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+/* header */
+.upnav{
+background: white;
+font-size: 18px;
+font-family: 'Nunito', sans-serif;
+width: 100%;
+height: 30px;
+display: flex;
+justify-content: space-between;
+padding: 3px 0px 3px 0px;
+}

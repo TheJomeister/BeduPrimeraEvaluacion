@@ -1,0 +1,42 @@
+/**
+* Template Name: Sunna 2.0
+* Author: jomeister.io
+* Sesión: 07
+*/
+/*--------------------------------------------------------------
+# Imported variables
+--------------------------------------------------------------*/
+@import "config"; 
+@import "home";
+@import"button";
+@import 'cards';
+@import 'nav';
+@import 'hero';
+@import 'grid';
+@import 'responsive';
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+/* Places The hero image */
+body{
+  display: grid;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: $light-primary-color;
+  text-decoration: none;
+}
+
+footer{
+  font-size: 1rem;
+  position:bottom;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: set-text-color($light-primary-color);
+}
+
+
+ 
+ 

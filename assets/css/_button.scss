@@ -1,0 +1,22 @@
+.button {
+    border: none; /* Remove borders */
+    color: $light-primary-color; /* White text */
+    padding: 0px 20px; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-decoration: none;
+  }
+  .media-button{
+    background-color: white;
+    border: none; /* Remove borders */
+    color: $dark-primary-color;
+    padding: 5px 20px 0px 0px; /* Some padding */
+    height: 18px;
+    font-size: 18px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  .media-button:hover{
+    color:  #f18805;
+  }
+  .button:hover {
+    box-shadow: inset 0px -80px 0px 0px #f18805;
+  }
